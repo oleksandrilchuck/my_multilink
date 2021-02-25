@@ -66,6 +66,7 @@ body{
     border: 1px solid #000;
     border-radius: 10px;
     overflow: hidden;
+    overflow-y: scroll;
 }
 .content__inner {
     display: flex;
