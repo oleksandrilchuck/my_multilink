@@ -209,6 +209,33 @@ img.social__img {
   height: 60px;
 }
 
+.tel {
+  -webkit-animation: tel 1.2s ease-in-out infinite;
+          animation: tel 1.2s ease-in-out infinite;
+}
+
+@-webkit-keyframes tel {
+  0%, 100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  50% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+}
+
+@keyframes tel {
+  0%, 100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  50% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+}
+
 @media (min-width: 767px) {
   body {
     font-size: 42px;

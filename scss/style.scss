@@ -131,6 +131,17 @@ img.social__img{
   width: 60px;
     height: 60px;  
 }
+.tel{
+   animation: tel 1.2s ease-in-out infinite; 
+}
+@keyframes tel{
+    0%, 100% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(6deg);
+    }
+}
 
 @media (min-width: 767px){
     body{
